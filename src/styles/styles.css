@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #87cefa, #ffffff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #4a90e2;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Search Form */
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #4a90e2;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+  width: 70%;
+  max-width: 400px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #357ab8;
+}
+
+/* Unit Toggle */
+.unit-toggle {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.unit-toggle label {
+  font-size: 1rem;
+  color: #4a90e2;
+  cursor: pointer;
+}
+
+.unit-toggle input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Weather Data */
+.weather-container {
+  background: #e0f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.weather-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+.weather-container p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Weather Forecast */
+.forecast-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  flex: 1;
+  background: #f1f8e9;
+  border-radius: 10px;
+  margin: 0 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.forecast-day h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #558b2f;
+}
+
+.forecast-day p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+/* Alert Form */
+.alert-form {
+  background-color: #ffeb3b;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.alert-form h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #f57f17;
+}
+
+.alert-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.alert-form input[type="text"],
+.alert-form input[type="email"] {
+  padding: 10px;
+  width: calc(100% - 22px);
+  border-radius: 5px;
+  border: 2px solid #f57f17;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.alert-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f57f17;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alert-form button:hover {
+  background-color: #e65100;
+}
+
+/* Alerts List */
+.alerts-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.alerts-list h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #4a90e2;
+}
+
+.alerts-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alerts-list li {
+  background: #ffecb3;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .forecast-container {
+    flex-direction: column;
+  }
+
+  .forecast-day {
+    margin: 10px 0;
+  }
+
+  .unit-toggle {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

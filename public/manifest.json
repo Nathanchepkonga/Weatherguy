@@ -1,0 +1,52 @@
+{
+    "short_name": "Weatherguy",
+    "name": "Weatherguy - Your Personal Weather Assistant",
+    "icons": [
+      {
+        "src": "/icons/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/icons/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#2193b0",
+    "theme_color": "#6dd5ed",
+    "description": "Get accurate and up-to-date weather information, including alerts for rain and snow.",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "shortcuts": [
+      {
+        "name": "Check Weather",
+        "short_name": "Weather",
+        "description": "Check the weather for your city",
+        "url": "/index.html",
+        "icons": [
+          {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192"
+          }
+        ]
+      },
+      {
+        "name": "Weather Alerts",
+        "short_name": "Alerts",
+        "description": "Set up alerts for rain or snow",
+        "url": "/alerts.html",
+        "icons": [
+          {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192"
+          }
+        ]
+      }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+  }
+  
