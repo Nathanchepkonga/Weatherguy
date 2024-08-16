@@ -9,7 +9,6 @@ Weatherguy is a colorful and responsive weather web application built using Reac
 - **5-Day Forecast**: Provides a 5-day weather forecast for the searched city.
 - **Unit Toggle**: Allows users to switch between Celsius and Fahrenheit units.
 - **Weather Icons**: Displays weather icons based on current conditions.
-- **Responsive Design**: The app is designed to work seamlessly on both desktop and mobile devices.
 - **Error Handling**: Displays appropriate messages for errors such as city not found.
 
 ## Installation
