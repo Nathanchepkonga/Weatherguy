@@ -11,6 +11,10 @@ Weatherguy is a colorful and responsive weather web application built using Reac
 - **Weather Icons**: Displays weather icons based on current conditions.
 - **Error Handling**: Displays appropriate messages for errors such as city not found.
 
+## View in site
+
+https://nathanweatherguy.netlify.app/
+
 ## Installation
 
 To get started with Weatherguy, follow these steps:
