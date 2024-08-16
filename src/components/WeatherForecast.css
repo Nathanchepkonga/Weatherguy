@@ -1,0 +1,42 @@
+.forecast-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forecast-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-item {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 120px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forecast-item h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-item p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .error-message {
+    color: #ff6e7f;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

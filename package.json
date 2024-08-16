@@ -1,0 +1,48 @@
+{
+    "name": "weatherguy",
+    "version": "1.0.0",
+    "description": "A colorful and responsive weather web app that fetches data from OpenWeatherMap API, allowing users to search for current weather and a 5-day forecast by city name.",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "lint": "eslint src/**/*.{js,jsx}",
+      "format": "prettier --write src/**/*.{js,jsx,css,html}"
+    },
+    "keywords": [
+      "react",
+      "weather",
+      "openweathermap",
+      "responsive",
+      "API",
+      "forecast"
+    ],
+    "author": "Nathan Chepkonga",
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "^5.0.1",
+      "axios": "^1.4.0",
+      "prop-types": "^15.8.1"
+    },
+    "devDependencies": {
+      "eslint": "^8.38.0",
+      "eslint-plugin-react": "^7.33.1",
+      "prettier": "^2.8.8"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+  
