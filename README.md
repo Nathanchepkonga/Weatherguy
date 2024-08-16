@@ -22,7 +22,7 @@ To get started with Weatherguy, follow these steps:
 
 2. Navigate to the project directory
    ```bash
-   cd weatherguy
+   cd Weatherguy
 
 3. Install the dependencies
    ```bash
